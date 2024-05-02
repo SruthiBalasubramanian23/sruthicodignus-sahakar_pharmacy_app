@@ -38,7 +38,6 @@ dependencies:
  
   flutter_svg: ^2.0.10+1
   flutter_screenutil: ^5.9.0
-  google_fonts: ^6.2.1
   lottie: ^3.1.0
 
 dev_dependencies:
@@ -85,15 +84,15 @@ flutter:
     - family: Nunito
       fonts:
         - asset: assets\fonts\Nunito-Regular.ttf
-        - asset: assets\fonts\Nunito-Bold.ttf
-        - asset: assets\fonts\Nunito-BoldItalic.ttf
-        - asset: assets\fonts\Nunito-Italic.ttf
+        # - asset: assets\fonts\Nunito-Bold.ttf
+        # - asset: assets\fonts\Nunito-BoldItalic.ttf
+        # - asset: assets\fonts\Nunito-Italic.ttf
        
         
-          style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+          # style: italic
+    - family: Lato
+      fonts: 
+        - asset: assets\fonts\Lato-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 class AppTheme {
   AppTheme._();
@@ -39,8 +39,8 @@ class AppTheme {
   //fonts
   //***************************
 
-  static final figTreeFont = GoogleFonts.nunito();
-  static final typography = GoogleFonts.lato();
+  // static final figTreeFont = GoogleFonts.nunito();
+  // static final typography = GoogleFonts.lato();
 //*************************************************
 //*************************************************
 
@@ -50,197 +50,197 @@ class AppTheme {
 
   static TextStyle headtext = TextStyle(
       color: titlecolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w600);
 
   static TextStyle subtitletext = TextStyle(
       color: subtitlecolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w400);
 
   static TextStyle labelText = TextStyle(
       color: labelcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w400);
 
   static TextStyle boldtitle = TextStyle(
       color: boldtext,
-      fontFamily: typography.fontFamily,
+      // fontFamily: typography.fontFamily,
       fontSize: 16.sp,
       fontWeight: FontWeight.w700);
 
   static TextStyle greyText = TextStyle(
       color: greycolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w600);
 
   static TextStyle searchtext = TextStyle(
       color: searchtextcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w500);
 
   static TextStyle headingtext = TextStyle(
       color: headingcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w600);
 
   static TextStyle greentext = TextStyle(
       color: greencolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 16.sp,
       fontWeight: FontWeight.w700);
 
   static TextStyle blacktext = TextStyle(
       color: blackcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w500);
 
   static TextStyle violettext = TextStyle(
       color: violetcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w500);
   static TextStyle mrptext = TextStyle(
       color: mrpcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w500);
 
       static TextStyle smallblacktext = TextStyle(
       color: smallblackcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w500);
 
        static TextStyle smallgreentext = TextStyle(
       color: smallgreencolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w500);
        static TextStyle datetext = TextStyle(
       color: datecolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w500);
        static TextStyle redtext = TextStyle(
       color: redcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w500);
 
        static TextStyle greyishText = TextStyle(
       color: greyishcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 16.sp,
       fontWeight: FontWeight.w500);
 
       static TextStyle orderidText = TextStyle(
       color:smallgreencolor ,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w700);
        static TextStyle numberidText = TextStyle(
       color:mrpcolor ,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w700);
 
        static TextStyle deliveredtext = TextStyle(
       color:smallgreencolor ,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w400);
 
       static TextStyle greydatetext = TextStyle(
       color:greydatecolor ,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w400);
 
 
       static TextStyle ratetext = TextStyle(
       color:textformfield,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w600);
 
       static TextStyle mainheadingtext = TextStyle(
       color:headingcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 16.sp,
       fontWeight: FontWeight.w500);
 
 
        static TextStyle greenprice = TextStyle(
       color: smallgreencolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w600);
 
          static TextStyle boldblackhead = TextStyle(
       color: blackcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w500);
 
        static TextStyle status = TextStyle(
       color: blackcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 14.sp,
       fontWeight: FontWeight.w400);
 
       static TextStyle italicblack = TextStyle(
       color: blackcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w400);
 
        static TextStyle buttontext = TextStyle(
       color: textformfield,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w700);
 
        static TextStyle paragraphgrey = TextStyle(
       color: greyishcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 12.sp,
       fontWeight: FontWeight.w400);
 
       static TextStyle dategreentext = TextStyle(
       color: smallgreencolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 10.sp,
       fontWeight: FontWeight.w500);
 
        static TextStyle zerotext = TextStyle(
       color: redcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w600);
 
        static TextStyle profilepageheadtext = TextStyle(
       color:greencolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w700);
 
        static TextStyle highlightredcolortext = TextStyle(
       color: redcolor,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w500);
 
        static TextStyle imagebuttontext = TextStyle(
       color: textformfield,
-      fontFamily: figTreeFont.fontFamily,
+      // fontFamily: figTreeFont.fontFamily,
       fontSize: 18.sp,
       fontWeight: FontWeight.w500);
 }

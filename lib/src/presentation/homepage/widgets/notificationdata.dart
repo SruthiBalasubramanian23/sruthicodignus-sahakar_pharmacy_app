@@ -23,7 +23,11 @@ class NotificationData extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Your Order Delivered",style: AppTheme.headtext,),
+              Text("Your Order Delivered",style: TextStyle(
+      color: AppTheme.titlecolor,
+      fontFamily: 'Lato',
+      fontSize: 18.sp,
+      fontWeight: FontWeight.w600)),
               Text("The recommended paracetamol dosing for adults aZ",style: AppTheme.paragraphgrey,),
               SizedBox(height: 4.h,),
               Padding(

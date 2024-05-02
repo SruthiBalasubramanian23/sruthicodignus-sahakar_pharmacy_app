@@ -22,7 +22,11 @@ class Buttonwidget extends StatelessWidget {
          height: 50.h,
          width: double.infinity,
         
-        child: Text(txt!,style: AppTheme.buttontext,),
+        child: Text(txt!,style: TextStyle(
+      color:AppTheme.textformfield,
+      fontFamily: 'Nunito',
+      fontSize: 18.sp,
+      fontWeight: FontWeight.w700),),
         ),
       ),
     );

@@ -1,12 +1,8 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:sahakar_pharmacy/src/presentation/widgets/bottomnavigationbar.dart';
 import 'package:sahakar_pharmacy/src/utils/assetresources.dart';
 import 'package:lottie/lottie.dart';
-
-
-
 
 class AddCartSuccess extends StatefulWidget {
   const AddCartSuccess({super.key});
@@ -28,8 +24,7 @@ class _AddCartSuccessState extends State<AddCartSuccess> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      backgroundColor:Colors.white,
+      backgroundColor: Colors.white,
       body: SizedBox(
         height: double.infinity,
         width: double.infinity,

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import 'package:sahakar_pharmacy/src/presentation/search_products/requestmedicinedata.dart';
 import 'package:sahakar_pharmacy/src/presentation/widgets/bottomnavigationbar.dart';
 import 'package:sahakar_pharmacy/src/presentation/widgets/imagebutton.dart';

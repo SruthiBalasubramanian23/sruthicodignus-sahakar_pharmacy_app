@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sahakar_pharmacy/src/presentation/cartpage/cartpagedetails.dart';
 import 'package:sahakar_pharmacy/src/presentation/widgets/dialog.dart';

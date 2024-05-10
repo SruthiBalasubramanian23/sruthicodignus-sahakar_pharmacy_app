@@ -1,6 +1,4 @@
 import 'dart:async';
-
-
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:sahakar_pharmacy/src/presentation/widgets/bottomnavigationbar.dart';
